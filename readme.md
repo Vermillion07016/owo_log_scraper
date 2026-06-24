@@ -27,6 +27,7 @@ src/
 ## Gereksinimler
 
 - Rust (stable)
+- js_dom (benim lokal projem)
 - Chrome / Chromium kurulu olmalı (headless_chrome tarafından kullanılır)
 
 ## Kullanım
