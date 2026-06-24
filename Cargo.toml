@@ -1,0 +1,12 @@
+[package]
+name = "owo_log_scrape"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+headless_chrome = { version = "1.0.22", features = ["native-tls"] }
+js_dom = { path = "../js_dom" }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+tokio = { version = "1.52.3", features = ["macros", "rt-multi-thread", "sync"] }
+url = "2.5.8"
